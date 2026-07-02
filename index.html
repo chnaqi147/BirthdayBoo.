@@ -55,8 +55,8 @@
             return false;
         }
 
-        var width = 1100;
-        var height = 680;        
+        var width = Math.min(window.innerWidth, 1100);
+        var height = Math.min(window.innerHeight, 680);        
         canvas.attr("width", width);
         canvas.attr("height", height);
 
