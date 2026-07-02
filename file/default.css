@@ -150,3 +150,55 @@ body {
   90% { opacity: 0.5; }
   100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
 }
+/* =======================
+   Mobile Responsive
+======================= */
+
+@media (max-width: 768px) {
+
+    body{
+        overflow:auto;
+    }
+
+    #wrap{
+        width:100%;
+        height:auto;
+        top:0;
+        transform:none;
+        padding:20px;
+    }
+
+    #canvas{
+        width:100%;
+        height:auto;
+        display:block;
+    }
+
+    #text{
+        position:relative;
+        width:100%;
+        left:0;
+        top:20px;
+        text-align:center;
+        padding:15px;
+    }
+
+    #code{
+        font-size:18px;
+        line-height:1.8;
+    }
+
+    .start-card{
+        width:90%;
+        padding:30px 20px;
+    }
+
+    .start-card h1{
+        font-size:2rem;
+    }
+
+    #start-btn{
+        width:100%;
+    }
+
+}
